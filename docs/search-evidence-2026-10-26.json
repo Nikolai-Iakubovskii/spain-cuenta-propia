@@ -1,0 +1,14 @@
+{
+  "observed_on": "2026-10-26",
+  "method": "Google autocomplete; suggestions only, no volume or demand inference.",
+  "selection": "Relevant selected suggestions only; not a complete autocomplete response.",
+  "queries": [
+    {"q": "residencia cuenta propia", "hl": "es", "gl": "es", "suggestions": ["residencia cuenta propia inicial", "residencia cuenta propia españa", "renovacion residencia cuenta propia", "residencia por cuenta propia requisitos", "residencia trabajo cuenta propia", "autorizacion residencia cuenta propia"]},
+    {"q": "visado cuenta propia", "hl": "es", "gl": "es", "suggestions": ["visado cuenta propia españa", "visado trabajo cuenta propia españa", "visado trabajo por cuenta propia españa", "visado de residencia por cuenta propia", "visado de trabajo por cuenta propia autónomo"]},
+    {"q": "modificacion nomada digital", "hl": "es", "gl": "es", "suggestions": ["modificacion de nomada digital a cuenta propia"]},
+    {"q": "spain self employed visa", "hl": "en", "gl": "es", "suggestions": ["spain self employed visa requirements", "spain self employed visa income requirements", "spain self employed visa cost", "spain self employed visa financial requirements", "spanish self employed visa application"]},
+    {"q": "куэнта пропия", "hl": "ru", "gl": "es", "suggestions": [], "interpretation": "Unvalidated seed; no autocomplete results observed."},
+    {"q": "внж испании cuenta propia", "hl": "ru", "gl": "es", "suggestions": ["внж испании cuenta propia"], "interpretation": "Only the typed phrase returned; weak evidence and not independent demand."}
+  ],
+  "endpoint_pattern": "https://suggestqueries.google.com/complete/search?client=firefox&hl={hl}&gl={gl}&q={encoded_query}"
+}

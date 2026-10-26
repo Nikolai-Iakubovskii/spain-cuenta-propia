@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "route": "modification-191-3",
+  "applicant": {
+    "name": "Example Applicant",
+    "nationality": "Example nationality",
+    "province": "Example province"
+  },
+  "reviews": {
+    "sources": {"status": "pending", "reviewed_on": "", "reviewer": "", "notes": "", "evidence": []},
+    "route": {"status": "pending", "reviewed_on": "", "reviewer": "", "notes": "", "evidence": []},
+    "content": {"status": "pending", "reviewed_on": "", "reviewer": "", "notes": ""}
+  },
+  "requirements": [
+    {
+      "id": "identity",
+      "title": "Identity document",
+      "basis": "Verify the current official sheet for the selected route.",
+      "source_url": "https://www.inclusion.gob.es/",
+      "status": "applicable",
+      "documents": ["passport"]
+    }
+  ],
+  "documents": [
+    {
+      "id": "passport",
+      "path": "documents/replace-with-private-file.pdf",
+      "sha256": "replace-with-the-sha256-after-adding-the-private-file",
+      "content_review": {"status": "pending", "reviewed_on": "", "reviewer": "", "notes": ""},
+      "expires_on": ""
+    }
+  ],
+  "portal": {
+    "confirmed_on": "2026-10-26",
+    "max_file_bytes": 6000000,
+    "extensions": [".pdf", ".doc", ".jpg", ".tif", ".gif"]
+  },
+  "submission": {"status": "not_submitted"}
+}

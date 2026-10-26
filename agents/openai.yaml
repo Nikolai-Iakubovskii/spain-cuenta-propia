@@ -1,0 +1,6 @@
+interface:
+  display_name: "Spain Cuenta Propia"
+  short_description: "Prepare Spanish self-employment residence cases"
+  default_prompt: "Use $spain-cuenta-propia to prepare a route-specific cuenta propia application case."
+policy:
+  allow_implicit_invocation: true
