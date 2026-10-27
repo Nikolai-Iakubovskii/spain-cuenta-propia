@@ -33,6 +33,8 @@ Fuente: [Hoja 55](https://www.inclusion.gob.es/web/migraciones/w/55.-modificacio
 | Ley 14/2013/DNV: autorización original, prueba del cambio y su fecha | si viene de Ley 14/2013 | criterio 1/2025, apartado 3 | contratos, comunicaciones, altas y bajas |
 | Prueba del art. 84 (licencias, cualificación, inversión, plan, informe de valoración) | respaldo si la actividad es nueva | la continuidad deja de ser evidente | ver ruta art. 84 |
 
+Tasas: 790-052 epígrafe 2.5.2 y 790-062 de autorizaciones renovadas de cuenta propia (epígrafe 3.3.2 en las hojas). Pueden llegar por requerimiento después de presentar, con los impresos ya emitidos: pagar en diez días hábiles y aportar los justificantes por la sede ([rutas](routes-and-sources.md#1-modificación-art-1913-residencia-que-ya-habilitaba-a-trabajar)).
+
 ## Rutas con requisitos del art. 84: 191.4, 190.3 e inicial
 
 Fuentes: [Hoja 55 bis](https://www.inclusion.gob.es/web/migraciones/w/55-bis.-modificaciones-desde-situaciones-de-residencia-que-no-habilitaban-a-trabajar) (191.4), [Hoja 58](https://www.inclusion.gob.es/web/migraciones/w/58.-modificaciones-desde-autorizaciones-de-estancia-por-estudios-superiores-ensenanza-secundaria-actividades-formativas-o-formacion-sanitaria-especializada) (190.3), [Hoja 14](https://www.inclusion.gob.es/web/migraciones/w/autorizacion-inicial-de-residencia-temporal-y-trabajo-por-cuenta-propia) (inicial), [art. 84](https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099#a8-6).

@@ -59,6 +59,7 @@ Comprobado el 2026-10-27. Cada fila dice qué comprobar y dónde; no sustituye l
 | Caso | Qué hacer | Fuente |
 | --- | --- | --- |
 | Renovación presentada tarde | Se admite hasta tres meses después de caducar, pero puede abrirse un sancionador | art. 86.1; [LOEX art. 52](https://www.boe.es/buscar/act.php?id=BOE-A-2000-544) |
+| Requerimiento de tasas tras presentar | La oficina puede enviar los impresos 790 ya emitidos; pagar en diez días hábiles y aportar los justificantes por la sede en el plazo que indique (quince días desde el pago en un caso real de 2026). El requerimiento suspende el plazo para resolver | requerimiento; [Ley 39/2015 art. 22](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a22) |
 | Requerimiento de documentación | Responder en diez días hábiles (ampliables hasta cinco) con aportación en la sede; si no, la solicitud puede tenerse por desistida | [Ley 39/2015 art. 68](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68) |
 | Notificación electrónica sin abrir | Pasados diez días naturales se entiende rechazada y el procedimiento sigue: revisar la sede y DEHú cada pocos días | [Ley 39/2015 art. 43.2](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43) |
 | Tres meses sin respuesta | Modificación e inicial: silencio negativo. Renovación: positivo | [LOEX DA 1.ª](https://www.boe.es/buscar/act.php?id=BOE-A-2000-544#daprimera), [DA 8.ª RD](https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099#da-8) |

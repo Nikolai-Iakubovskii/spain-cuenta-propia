@@ -23,7 +23,7 @@ La modificación art. 191.3 es el flujo principal. Si la autorización anterior 
 ## Plazos que más se olvidan
 
 - Ventana de presentación: en general, dos meses antes o tres después de caducar; desde Ley 14/2013, tres meses desde el cambio.
-- Tasa de una modificación: diez días hábiles desde la admisión a trámite.
+- Tasas de una modificación: diez días hábiles desde la admisión a trámite; a menudo llegan por requerimiento con los impresos ya emitidos (191.3: 790-052 y 790-062).
 - Requerimiento: diez días hábiles para contestar.
 - Notificación electrónica: si no se abre en diez días naturales, se tiene por rechazada y el procedimiento sigue.
 - Tres meses sin respuesta: en modificación e inicial es denegación; en renovación, concesión.
