@@ -2,6 +2,8 @@
 
 El caso vive fuera del repositorio. Inicialízalo con `init`; el archivo `case.json` y `PRIVATE.md` creados son deliberadamente incompletos.
 
+Valores de `--route`, explicados en [rutas](routes-and-sources.md): `modification-191-3`, `modification-191-4`, `modification-190-3`, `modification-192-2`, `renewal-ex07`, `initial-ex07`, `family-ex02`. El valor solo etiqueta el caso; el script no deduce requisitos de él.
+
 ```bash
 python3 scripts/cuenta_propia.py init /private/cuenta-case --route modification-191-3
 # añadir originales a /private/cuenta-case/documents/

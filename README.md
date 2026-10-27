@@ -6,15 +6,28 @@ No es un despacho, no garantiza una resolución y no sustituye la comprobación 
 
 ## Qué resuelve
 
-El repositorio separa tres rutas que suelen confundirse:
+El repositorio separa rutas que suelen confundirse ([detalle, plazos y tasas](docs/routes-and-sources.md)):
 
-| Ruta | Cuándo se estudia | Formulario orientativo |
-| --- | --- | --- |
-| Modificación | Residencia de al menos un año que ya habilitaba a trabajar; art. 191.3 remite a art. 80 o 86 | EX-26 |
-| Inicial desde fuera de España | Proyecto nuevo de una persona no residente | EX-07 y consulado |
-| Familiar | Cada persona familiar tiene su propio expediente y legitimación | EX-02, tras confirmar la vía |
+| Situación | Ruta | Formulario | Resultado |
+| --- | --- | --- | --- |
+| Residencia de al menos un año que ya habilita a trabajar, incluida la DNV | Modificación, [RD 1155/2024 art. 191.3](https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099#a1-103) | EX-26 | 4 años |
+| Residencia de al menos un año que no habilita a trabajar (no lucrativa) | Modificación, art. 191.4 | EX-26 | 1 año |
+| Estudiante con título obtenido | Modificación, art. 190.3 | EX-26 | 1 año |
+| Cuenta ajena inicial en su primer año | Modificación, art. 192.2 | confirmar | misma vigencia |
+| Ya autónomo con autorización que caduca | Renovación, arts. 86–87 | EX-07 | 4 años |
+| Vive fuera de España | Inicial con visado, arts. 82–85 | EX-07 en el consulado | 1 año |
+| Familiar | Expediente propio de cada persona | EX-02 u otro | según vía |
 
-La modificación art. 191.3 es el flujo principal. Si la autorización anterior procede de Ley 14/2013, una TIE vigente y el tiempo de residencia no prueban por sí solos la admisibilidad: hay que documentar la naturaleza y fecha del cambio, la continuidad de actividad previa frente al nuevo negocio, requisitos actuales y coordinación/notificación con UGE que corresponda. Un plan de empresa, informe ATA, padrón, informe de vivienda o una cifra fija de ingresos no se tratan aquí como requisitos universales: el agente debe acreditar por qué aplican al caso y a la provincia.
+La modificación art. 191.3 es el flujo principal. Si la autorización anterior procede de Ley 14/2013 (DNV), una TIE vigente y el tiempo de residencia no bastan: hay que documentar el cambio que impide mantenerla y su fecha (se pide en los tres meses siguientes), la continuidad de la actividad frente al nuevo negocio, los requisitos actuales y la coordinación con la UGE. Un plan de empresa, informe de ATA, padrón, informe de vivienda o una cifra fija de ingresos no son requisitos universales: el agente acredita por qué aplican a la ruta y al caso. Para 191.4, 190.3 y la inicial sí hay que probar la inversión y su incidencia en el empleo ([art. 84](https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099#a8-6)).
+
+## Plazos que más se olvidan
+
+- Ventana de presentación: en general, dos meses antes o tres después de caducar; desde Ley 14/2013, tres meses desde el cambio.
+- Tasa de una modificación: diez días hábiles desde la admisión a trámite.
+- Requerimiento: diez días hábiles para contestar.
+- Notificación electrónica: si no se abre en diez días naturales, se tiene por rechazada y el procedimiento sigue.
+- Tres meses sin respuesta: en modificación e inicial es denegación; en renovación, concesión.
+- Tras conceder: alta en Seguridad Social y TIE en el plazo de cada ruta, normalmente un mes cada paso.
 
 ## Inicio rápido
 
@@ -31,8 +44,10 @@ La modificación art. 191.3 es el flujo principal. Si la autorización anterior 
    python3 scripts/cuenta_propia.py init /ruta/privada/caso --route modification-191-3
    ```
 
+   Valores de `--route`: `modification-191-3`, `modification-191-4`, `modification-190-3`, `modification-192-2`, `renewal-ex07`, `initial-ex07`, `family-ex02`.
+
 3. Da al agente el [prompt operativo](prompts/agent-workflow.md), acceso solamente a las carpetas o conectores autorizados y el modo `prepare` o `prepare-and-submit`.
-4. Completa [intake](templates/intake.md), la [matriz de requisitos](templates/requirements-matrix.md) y el [ledger](templates/submission-ledger.md).
+4. Completa [intake](templates/intake.md), la [matriz de requisitos](templates/requirements-matrix.md) a partir del [checklist de tu ruta](docs/checklists.md) y el [ledger](templates/submission-ledger.md). Revisa los [casos especiales](docs/special-cases.md).
 5. Añade documentos originales al caso privado; `inventory` detecta archivos, el agente registra los pertinentes y su revisión sustantiva, y luego sigue el [esquema CLI](docs/cli.md): `audit` y, solo en verde, `bundle`.
 6. Para presentar, el agente sigue la [secuencia de sede](docs/submission.md) y usa únicamente el portal oficial vigente. Éxito significa un `resguardo` oficial con REGAGE, fecha/hora, persona, formulario, provincia y lista de adjuntos conciliada.
 
@@ -60,6 +75,9 @@ Antes de cada presentación, el agente registra la fecha de revisión, artículo
 
 - [Workflow completo](docs/workflow.md)
 - [Fuentes y rutas](docs/routes-and-sources.md)
+- [Checklists por ruta](docs/checklists.md)
+- [Casos especiales](docs/special-cases.md)
+- [Normativa y enlaces oficiales](docs/legal-basis.md)
 - [Obtención de documentos](docs/document-sources.md)
 - [Revisión de documentos](docs/document-review.md)
 - [Caso privado y CLI](docs/cli.md)
@@ -69,7 +87,7 @@ Antes de cada presentación, el agente registra la fecha de revisión, artículo
 
 ## Consultas que cubre
 
-Autocomplete validó formulaciones españolas e inglesas de `residencia cuenta propia`, `visado cuenta propia`, `modificacion nomada digital` y `spain self employed visa`. Las frases rusas son traducciones/semillas no validadas y no prueban demanda. No se declara volumen de búsqueda: ver [metodología](docs/search-intent.md).
+Residencia por cuenta propia inicial y su renovación, visado de trabajo por cuenta propia, modificación de nómada digital a cuenta propia y, en inglés, "Spain self employed visa". Metodología de las frases: [intención de búsqueda](docs/search-intent.md).
 
 ## Autor
 

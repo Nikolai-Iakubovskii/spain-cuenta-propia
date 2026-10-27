@@ -17,7 +17,15 @@ import shutil
 import sys
 from pathlib import Path
 
-ROUTES = {"modification-191-3", "initial-ex07", "family-ex02"}
+ROUTES = {
+    "modification-191-3",
+    "modification-191-4",
+    "modification-190-3",
+    "modification-192-2",
+    "renewal-ex07",
+    "initial-ex07",
+    "family-ex02",
+}
 DEFAULT_EXTENSIONS = [".pdf", ".doc", ".jpg", ".tif", ".gif"]
 DEFAULT_MAX_BYTES = 6_000_000
 ROOT = Path(__file__).resolve().parents[1]

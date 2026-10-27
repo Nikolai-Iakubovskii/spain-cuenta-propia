@@ -80,6 +80,14 @@ class CuentaPropiaTests(unittest.TestCase):
             self.assertNotEqual(result.returncode, 0)
             self.assertIn("symlinked documents", result.stdout)
 
+    def test_every_documented_route_initializes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            for route in ("modification-191-3", "modification-191-4", "modification-190-3", "modification-192-2", "renewal-ex07", "initial-ex07", "family-ex02"):
+                case = Path(tmp) / route
+                self.assertEqual(run("init", str(case), "--route", route).returncode, 0)
+                self.assertEqual(json.loads((case / "case.json").read_text())["route"], route)
+            self.assertNotEqual(run("init", str(Path(tmp) / "unknown"), "--route", "renewal").returncode, 0)
+
     def test_repo_local_case_is_refused(self):
         result = run("init", str(ROOT / "do-not-create"), "--route", "initial-ex07")
         self.assertNotEqual(result.returncode, 0)
