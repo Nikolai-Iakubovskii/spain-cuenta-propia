@@ -5,3 +5,12 @@ This is an evidence-led workflow for a Spanish `residencia y trabajo por cuenta 
 It distinguishes an art. 191.3 modification (`EX-26`), an initial outside-Spain route (`EX-07`) and a separate family case. The tool never makes a legal decision, signs, sends network requests, or claims that a fee payment is a filing.
 
 Start with the [Spanish README](README.md), then use the [agent prompt](prompts/agent-workflow.md), [workflow](docs/workflow.md), [case/CLI schema](docs/cli.md), and [submission sequence](docs/submission.md). Keep every case outside the repository.
+
+## Author
+
+[Nikolai Iakubovskii](https://github.com/Nikolai-Iakubovskii).
+
+Russian-language Telegram channels:
+
+- [@yak_niko](https://t.me/yak_niko) — Spain and my life.
+- [@sexyllm](https://t.me/sexyllm) — mobile apps, marketing, and IT business.

@@ -71,6 +71,15 @@ Antes de cada presentación, el agente registra la fecha de revisión, artículo
 
 Autocomplete validó formulaciones españolas e inglesas de `residencia cuenta propia`, `visado cuenta propia`, `modificacion nomada digital` y `spain self employed visa`. Las frases rusas son traducciones/semillas no validadas y no prueban demanda. No se declara volumen de búsqueda: ver [metodología](docs/search-intent.md).
 
+## Autor
+
+[Nikolai Iakubovskii](https://github.com/Nikolai-Iakubovskii).
+
+Canales de Telegram en ruso:
+
+- [@yak_niko](https://t.me/yak_niko) — España y mi vida.
+- [@sexyllm](https://t.me/sexyllm) — aplicaciones móviles, marketing y negocio IT.
+
 ## Licencia
 
 MIT © 2026 [Nikolai Iakubovskii](https://github.com/Nikolai-Iakubovskii)
